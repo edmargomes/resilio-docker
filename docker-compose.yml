@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  resilio:
+    image: resilio/sync:latest
+    container_name: resilio_sync
+    ports:
+    - 5454:8888
+    restart: on-failure
+#    user: 1000:1000
+    volumes:
+      - ${DATA_FOLDER}:/mnt/sync

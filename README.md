@@ -1,2 +1,4 @@
 # resilio-docker
-booleirplate to use resiliowith docker in you computer or server 
+Booleirplate to use resilio with docker in your computer or server.
+
+Rename `docker-compose.override.example.yml` to add other folders in your Resilio system.
