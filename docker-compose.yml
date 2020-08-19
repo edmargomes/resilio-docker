@@ -6,7 +6,7 @@ services:
     container_name: resilio_sync
     ports:
     - 5454:8888
-    restart: on-failure
+    restart: always
 #    user: 1000:1000
     volumes:
       - ${DATA_FOLDER}:/mnt/sync
